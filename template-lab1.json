@@ -21,7 +21,7 @@
       "metadata": {
         "description": "Location for all resources."
       }
-    },
+    }
   },
    "variables": {
     "vmName": "lab1-vm",
