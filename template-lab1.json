@@ -24,15 +24,15 @@
     }
   },
    "variables": {
-    "vmName": "lab1-vm",
+    "vmName": "AZC26L-lab1-vm",
     "storageAccountName": "[format('bootdiags{0}', uniqueString(resourceGroup().id))]",
-    "publicIpName": "lab1-PIP",
-    "nicName": "lab1-VMNic",
+    "publicIpName": "AZC26L-lab1-PIP",
+    "nicName": "AZC26L-lab1-VMNic",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
-    "virtualNetworkName": "lab1-VNET",
-    "networkSecurityGroupName": "default-NSG"
+    "virtualNetworkName": "AZC26L-lab1-VNET",
+    "networkSecurityGroupName": "AZC26L-default-NSG"
   },
   "resources": [
     {
