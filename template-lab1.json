@@ -23,8 +23,7 @@
       }
     }
   },
-   "variables": {
-    
+   "variables": {    
     "vmName": "AZC26L-VM",
     "storageAccountName": "[format('bootdiags{0}', uniqueString(resourceGroup().id))]",
     "publicIpName": "AZC26L-PIP",
