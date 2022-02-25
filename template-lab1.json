@@ -14,7 +14,7 @@
       "metadata": {
         "description": "Password for the Virtual Machine."
       }
-    },
+    }
   },
    "variables": {
     "location": "[resourceGroup().location]",
