@@ -35,7 +35,7 @@
         "name": "[variables('storageAccountName')]",
         "location": "[variables('location')]",
         "tags": {
-          "usage": "GEARS DEMO"
+          "usage": "GEARS DEMO",
           "sampletag": "I am a tag"
         },
         "sku": {
@@ -49,7 +49,7 @@
         "name": "[variables('publicIpName')]",
         "location": "[variables('location')]",
         "tags": {
-          "usage": "GEARS DEMO"
+          "usage": "GEARS DEMO",
           "sampletag2": "I am a tag 2"
         },        
         "sku": {
@@ -68,7 +68,7 @@
         "name": "[variables('networkSecurityGroupName')]",
         "location": "[variables('location')]",
         "tags": {
-          "usage": "GEARS DEMO"
+          "usage": "GEARS DEMO",
           "sampletag3": "I am a tag 3"
         },
         "properties": {
@@ -148,7 +148,7 @@
         "name": "[variables('vmName')]",
         "location": "[variables('location')]",
         "tags": {
-          "usage": "GEARS DEMO"
+          "usage": "GEARS DEMO",
           "sampletag4": "I am a tag 4"
         },
         "properties": {
